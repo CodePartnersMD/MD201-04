@@ -14,7 +14,8 @@ $('#calculator').on('submit', function(e) {           // When form is submitted
   height = $('#height').val();
 
   area = width * height;
-  console.error(area);                                // Error: show area
+  console.error(area);
+  console                              // Error: show area
 
   $form.append('<p class="result">' + area + '</p>');
 });
